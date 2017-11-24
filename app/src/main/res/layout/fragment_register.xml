@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dimen_16">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/etEmailId"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_48"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_48"
+            android:layout_below="@+id/etEmailId"
+            android:layout_marginTop="@dimen/dimen_8"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_32"
+            android:paddingEnd="@dimen/dimen_16"
+            android:paddingLeft="@dimen/dimen_16"
+            android:paddingRight="@dimen/dimen_16"
+            android:paddingStart="@dimen/dimen_16"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

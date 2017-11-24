@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_32">32dp</dimen>
+    <dimen name="dimen_64">64dp</dimen>
+
+    <dimen name="user_icon_width">36dp</dimen>
+    <dimen name="user_icon_height">36dp</dimen>
+
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="dimen_48">48dp</dimen>
+</resources>
