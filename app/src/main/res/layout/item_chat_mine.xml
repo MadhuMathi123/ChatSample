@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/dimen_8"
+    android:paddingEnd="@dimen/dimen_16"
+    android:paddingStart="@dimen/dimen_16"
+    android:paddingTop="@dimen/dimen_8">
+
+    <TextView
+        android:id="@+id/tvMyMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_64"
+        android:layout_marginLeft="@dimen/dimen_64"
+        android:layout_toStartOf="@+id/tvMyUserName"
+        android:layout_toLeftOf="@+id/tvMyUserName"
+        android:background="@drawable/chat_rounded_rect_bg"
+        android:padding="@dimen/dimen_8"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/grey_100"
+        tools:text="Noice man !" />
+
+    <TextView
+        android:id="@+id/tvMyUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:layout_marginLeft="@dimen/dimen_16"
+        android:background="@drawable/circle_accent"
+        android:gravity="center"
+        android:maxEms="1"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/grey_100"
+        android:textStyle="bold"
+        tools:text="a" />
+
+</RelativeLayout>
